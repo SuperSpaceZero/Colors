@@ -12,7 +12,9 @@ int main()
 	SetConsoleTitle(TEXT("~=~"));
 	using namespace std;
 	int COlor = 10;
-	int Plus = 500;
+	int Plus = 100;
+	cout << "Speed in milliseconds (Default is 100) - ";
+	cin >> Plus;
 	while (true)
 	{
 		Sleep(Plus);
